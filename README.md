@@ -5,7 +5,7 @@ TechStack used-
       Database-mysql
       Database connector- jpa (java persistence api)
       Frontend deployed in aws ec2
-      Backend deployed in aws elastic bean stalk
+      Backend deployed in aws elastic bean stalk(http://xmeme-env.eba-bwbueset.ap-south-1.elasticbeanstalk.com/memes)
       Cloud database (aws rds)
 Check out my project & post your Memes here - http://65.1.94.231/
 

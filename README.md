@@ -8,4 +8,5 @@ As a part of Crio Winter of Doing, I have built XMeme web app where you can post
       Cloud database (aws rds)
 Check out my project & post your Memes here - http://65.1.94.231/
 
-Assuming system has already java 15 version and maven installed. Run the commands in server_run.sh
+If your system is Ubuntu then Run the files install.sh,server_run.sh ans sleep.sh
+If your system is windows then make sure u have java 11 and maven installed and then run.

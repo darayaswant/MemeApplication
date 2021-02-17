@@ -17,10 +17,6 @@
             alert("again enter url")
             return;
           }
-          if(!checkURL(new_url)) {
-            alert("url given is not an image url")
-            return
-          }
           const body={
             url : new_url
           }
@@ -61,10 +57,6 @@
         formId.onsubmit = async (e) => {
             e.preventDefault();
             let fData = new FormData(formId);
-            if(!checkURL(fData.get('url'))){
-              alert("url given is not an image url")
-              return
-            } 
             const body = {
                 name: fData.get('name'),
                 url: fData.get('url'),
@@ -111,6 +103,3 @@
             })
             .catch((error)=> console.log(error));
           }
-          function checkURL(url) {
-            return(url.match(/\.(jpeg|jpg|gif|png)$/) != null);
-        }
